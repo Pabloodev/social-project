@@ -19,7 +19,7 @@ export const navLinks = [
 
 export default function Header() {
   return (
-    <div className="flex justify-between items-center p-10 text-white fixed w-full">
+    <div className="flex justify-between items-center p-10 text-white abslute w-full">
 
       {/* logo */}
       <div>
@@ -31,7 +31,9 @@ export default function Header() {
         <ul className="flex items-center gap-4">
           {navLinks.map((link, index) => (
             <li key={index}>
-              <a className="cursor-pointer hover:text-yellow-700 transition duration-700" href={link.link}>{link.name}</a>
+              <a className="cursor-pointer hover:text-yellow-700 transition duration-700" href={link.link}>
+                <span>{link.name}</span>
+              </a>
             </li>
           ))}
         </ul>

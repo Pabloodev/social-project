@@ -1,4 +1,4 @@
-import { HeartHandshake, HandHelping, Users } from 'lucide-react';
+import { HeartHandshake, HandHelping, Users, ChevronsRight } from 'lucide-react';
 
 const cardLinks = [
   {
@@ -38,7 +38,10 @@ export default function About() {
               <Icon className="w-8 h-8 mb-3 text-white" />
               <h2 className='text-xl font-semibold'>{card.title}</h2>
               <p className='text-lg'>{card.intro}</p>
-              <a href={card.link}>{card.linkName}</a>
+              <a className='flex items-center gap-2 cursor-pointer hover:text-yellow-700 transition duration-700' href={card.link}>
+                <span>{card.linkName}</span>
+                <ChevronsRight />
+              </a>
             </li>
           );
         })}
