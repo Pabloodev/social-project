@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "Educação para Todos",
     description: "Projeto que proporciona acesso à educação de qualidade para crianças e jovens em situação de vulnerabilidade social, oferecendo reforço escolar, oficinas culturais e acompanhamento pedagógico.",
-    imageUrl: "https://images.pexels.com/photos/8363104/pexels-photo-8363104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    imageUrl: "https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&w=600",
     category: "education",
     location: "São Paulo, SP",
     date: "Em andamento",
@@ -15,7 +15,7 @@ export const projects = [
     id: 2,
     title: "Saúde Comunitária",
     description: "Programa de atendimento médico e odontológico gratuito em comunidades carentes, com foco em prevenção, diagnóstico precoce e tratamentos básicos de saúde.",
-    imageUrl: "https://images.pexels.com/photos/6129500/pexels-photo-6129500.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    imageUrl: "https://images.pexels.com/photos/32418225/pexels-photo-32418225/free-photo-of-arranjo-de-ferramentas-medicas-e-vacinas.jpeg?auto=compress&cs=tinysrgb&w=600",
     category: "health",
     location: "Rio de Janeiro, RJ",
     date: "Semestral"
