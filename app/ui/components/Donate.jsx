@@ -1,7 +1,7 @@
 export default function Donate() {
   return (
-    <section className="bg-[url(/bg-2.png)] bg-cover py-12 px-4 text-center" id="doe">
-      <h2 className="text-3xl font-bold text-green-600 mb-4">Ajude a transformar vidas</h2>
+    <section id="donate" className="bg-[url(/bg-2.png)] bg-cover py-12 px-4 text-center">
+      <h2 className="text-3xl font-bold text-green-400 mb-4">Ajude a transformar vidas</h2>
       <p className="text-white max-w-xl mx-auto mb-6">
         Sua doação ajuda nossa ONG a continuar oferecendo apoio e esperança para quem mais precisa. Qualquer valor faz a diferença!
       </p>

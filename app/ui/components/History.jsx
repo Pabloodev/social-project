@@ -66,7 +66,7 @@ export default function History() {
   );
 
   return (
-    <div className="bg-orange-50 bg-[url(/bg-2.png)] bg-cover py-20 px-20 flex flex-col items-center justify-center p-6 text-white">
+    <div id="history" className="bg-orange-50 bg-[url(/bg-2.png)] bg-cover py-20 px-20 flex flex-col items-center justify-center p-6 text-white">
       <h1 className="text-3xl font-bold mb-8">Mais sobre a história</h1>
       <p className="text-lg max-w-xl text-center mb-8 font-medium">
         Clique no livro abaixo para conhecer mais dessa linda trajetória.

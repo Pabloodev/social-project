@@ -8,13 +8,18 @@ export const navLinks = [
     link: "#history"
   },
   {
-    name: "Fale Conosco",
-    link: "#contact-us"
+    name: "Projetos",
+    link: "#projects"
   },
   {
     name: "Doação",
     link: "#donate"
   },
+  {
+    name: "Fale Conosco",
+    link: "#contact-us"
+  },
+  
 ]
 
 export default function Header() {
@@ -39,11 +44,11 @@ export default function Header() {
         </ul>
       </nav>
 
-      {/* Botão de doação */}
-      <button className="shadow-xl/30 bg-white text-black px-4 py-1 rounded-sm text-sm cursor-pointer transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-yellow-700">
-        Doar
-      </button>
-
+      <a href="#donate">
+        <button className="shadow-xl/30 bg-white text-black px-4 py-1 rounded-sm text-sm cursor-pointer transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-yellow-700">
+          Doar
+        </button>
+      </a>
     </div>
   )
 }

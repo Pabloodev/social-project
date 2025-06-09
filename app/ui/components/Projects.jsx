@@ -2,7 +2,7 @@ import { projects } from "./../../data/projects";
 
 export default function Projects() {
   return (
-    <div className="bg-[#382a2a] py-20 px-8 md:px-20 flex flex-col items-center justify-center gap-10 text-white">
+    <div id="projects" className="bg-[#382a2a] py-20 px-8 md:px-20 flex flex-col items-center justify-center gap-10 text-white">
       <h1 className="text-3xl md:text-4xl font-bold max-w-[800px] text-center">
         Como a ONG Maximiliano Kolbe transforma vidas através da educação e do amor.
       </h1>
